@@ -5,11 +5,12 @@ public class RobotDancer extends Robot{
 
 	public RobotDancer(String name, String function, String color, int age) {
 		super(name, function, color);
+		this.age=age;
 	}
 	
 	
 	
 	public void  work () {
-		System.out.println("Я RobotDancer – я просто танцюю");
+		System.out.println("Гџ RobotDancer вЂ“ Гї ГЇГ°Г®Г±ГІГ® ГІГ Г­Г¶ГѕГѕ");
 	}
 }
